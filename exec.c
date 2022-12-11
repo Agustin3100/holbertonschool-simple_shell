@@ -15,7 +15,7 @@ int exec(char **argv)
 
         if (execve(command_path_copy, argv, environ) == -1)
         {
-            printstr("Error: not a command or directory\n");
+            printf("Error: not a command or directory\n");
 		    free(command_path_copy);
 			free(argv);
 			exit(EXIT_FAILURE);
