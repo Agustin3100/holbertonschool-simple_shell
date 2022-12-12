@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #define  _GNU_SOURCE
-#define LIMIT "\n\t\r\a "
+#define LIMIT "\n\t\r\a " /* Limiters for strtok */
 #define EXIT_FAILURE    1       /* Failing exit status.  */
 #define EXIT_SUCCESS    0       /* Successful exit status.  */
 #include <sys/types.h>
@@ -15,8 +15,8 @@
 char *get_line(void);
 char *build(char *token, char *value);
 int get_path(char **cmd);
-extern char** environ;
-int geterror (char argv[]);
+extern char**(environ);
+int geterror(char argv[]);
 char *_getenv(const char *name);
 int _strlen(char *s);
 int printstr(char *);
