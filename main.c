@@ -16,7 +16,7 @@ int main(void)
 
 	while (1)
 	{
-		printf("uwu $:");
+		printf("$ ");
 
 		input = get_line();
 		argv = tokenizer(input);
