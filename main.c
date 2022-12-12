@@ -11,7 +11,10 @@ int main(void)
 
 	while (1)
 	{
-		printf("$ ");/* Prompt the user for input */
+		if (isatty(STDIN_FILENO)== 1)
+    	{
+        	printf("$ ");/* Prompt the user for input */
+		}
 		input = get_line();/* Get the input entered by the user */
 		argv = tokenizer(input);/* Tokenize the input */
 
