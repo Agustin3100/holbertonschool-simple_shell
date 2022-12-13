@@ -1,0 +1,24 @@
+.TH _BASISHELL "1" "December 2022" "1.0" "User Commands"
+.SH NAME
+_printf \- format and print data
+.SH SYNOPSIS
+.B basic_shell
+\fI\,FORMAT \/\fR[\fI\,ARGUMENT\/\fR]...
+.br
+.SH DESCRIPTION
+.\ basic_shell. A command-line interface (CLI) that allows users to interact with the underlying operating system of a computer. In the context of Linux and Unix-like operating systems, a shell is a program that interprets and executes the commands entered by the user.
+.PP
+Return
+.SH AUTHORS
+Written by brncd and agustin3100.
+.SH "REPORTING BUGS"
+.br
+Report any bugs to <4431@holbertonstudents.com>
+.SH COPYRIGHT
+Copyright \(co 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+.br
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+.SH "SEE ALSO"
+Source code: <https://github.com/brncd/holbertonschool-simple_shell/>
